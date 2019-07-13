@@ -1,0 +1,21 @@
+<resources>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <!-- 宽 match——parent 高  wrap_content-->
+    <style name="h_wrap_content">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- 宽高都 match——parent -->
+    <style name="tv_style">
+        <item name="android:layout_width">145dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+</resources>
